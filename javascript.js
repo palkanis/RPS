@@ -1,4 +1,4 @@
-//let random = Math.floor(Math.random()*100) + 1;
+// Rock Papers Scissors
 
 function getComputerChoice() {
     let random = Math.floor(Math.random()*100) + 1;
@@ -31,5 +31,9 @@ function getHumanChoice() {
         return 'Not a valid choice!'
     }
 }
+
+let humanScore = 0
+
+let computerScore = 0
 
 console.log(getComputerChoice())
