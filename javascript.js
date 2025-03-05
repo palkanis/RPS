@@ -78,7 +78,7 @@ results.appendChild(para3);
 
 
 btn1.addEventListener('click', (e) => {
-    playerChoice = e.target.id;
+    playerChoice = e.target.id; //stores the call of the button as a string, in this case, rock.
     computerChoice = getComputerChoice();
     para1.textContent = playRound(playerChoice, computerChoice);
     para2.textContent = `Human: ${humanScore}   Computer: ${computerScore}`;
